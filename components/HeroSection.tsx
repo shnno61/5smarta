@@ -19,7 +19,7 @@ export default function HeroSection({ data }: HeroSectionProps) {
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
         <div className="text-center p-4 md:p-8 lg:p-12">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
+          <h1 className="text-4xl text-yellow-500 sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
             {data.title}
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mb-8">

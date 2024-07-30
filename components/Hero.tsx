@@ -12,7 +12,7 @@ const Hero = ({ title, description, imageSrc, imageAlt }: HeroProps) => (
     <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
     <div className="relative z-10 flex flex-1 flex-col order-1 xl:order-1 xl:w-1/2 items-center xl:items-start">
       <div className="px-4 py-8 mx-auto max-w-screen-lg xl:max-w-full 2xl:px-16 2xl:py-12 3xl:px-24 3xl:py-16 4xl:px-32 4xl:py-20">
-        <h1 className="text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl lg:leading-tight mb-4 drop-shadow-md text-center xl:text-left 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl">
+        <h1 className="text-3xl mt-20 text-yellow-500 font-extrabold leading-tight md:text-4xl lg:text-5xl lg:leading-tight mb-4 drop-shadow-md text-center xl:text-left 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl">
           {title}
         </h1>
         <p className="text-base md:text-lg lg:text-xl leading-relaxed mb-8 drop-shadow-sm text-center xl:text-left 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl">
@@ -39,7 +39,7 @@ const Hero = ({ title, description, imageSrc, imageAlt }: HeroProps) => (
           width={500}
           height={400}
           layout="responsive"
-          className="rounded-lg shadow-lg transition-transform transform hover:scale-105"
+          className="rounded-lg  shadow-lg transition-transform transform hover:scale-105"
           priority
         />
       </div>
