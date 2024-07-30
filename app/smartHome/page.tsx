@@ -24,9 +24,9 @@ const page = () => {
 
   const cards = [
     { src: '/smartHome/smartLighting.jpeg', alt: 'Smart Lighting', mainText: 'Smart Lighting', description: 'Illuminate your home with intelligent lighting solutions for control and ambiance...', slug: 'smartHome/smartLighting' },
-    { src: '/smartHome/smartHomeSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect your home with advanced security cameras, smart locks, and video doorbells..', slug: 'smartHome/smartSecurity' },
+    { src: '/smartHome/SmartHomeSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect your home with advanced security cameras, smart locks, and video doorbells..', slug: 'smartHome/smartSecurity' },
     { src: '/smartHome/smartThermostats.jpeg', alt: 'Smart Thermostats', mainText: 'Smart Thermostats', description: 'Optimize your home\'s climate with pretty, intelligent, energy-efficient thermostats...', slug: 'smartHome/smartThermostats' },
-    { src: '/smartHome/smartKitchen.jpg', alt: 'Smart Kitchen Appliances', mainText: 'Smart Kitchen Appliances', description: 'Upgrade your kitchen with smart refrigerators, ovens, coffee makers, and dishwashers.', slug: 'smartHome/smartKitchen' },
+    { src: '/smartHome/smartkitchen.jpg', alt: 'Smart Kitchen Appliances', mainText: 'Smart Kitchen Appliances', description: 'Upgrade your kitchen with smart refrigerators, ovens, coffee makers, and dishwashers.', slug: 'smartHome/smartKitchen' },
     { src: '/smartHome/smartEntertainment.jpeg', alt: 'Smart Home Entertainment', mainText: 'Smart Home Entertainment', description: 'Enhance entertainment with smart TVs, speakers, soundbars, projectors, and lamps.', slug: 'smartHome/smartEntertainment' },
     { src: '/smartHome/smartCleaning.jpeg', alt: 'Smart Cleaning Devices', mainText: 'Smart Cleaning Devices', description: 'Keep your home clean with robot vacuums, smart mops, and air purifiers for easy maintenance.', slug: 'smartHome/smartCleaning' },
     { src: '/smartHome/smartGarden.jpeg', alt: 'Smart Garden and Outdoor Devices', mainText: 'Smart Garden and Outdoor Devices', description: 'Manage your outdoor space with smart irrigation, efficient lighting, and sensors......', slug: 'smartHome/smartGarden' },
