@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex items-center justify-between max-w-screen-xl mx-auto p-4 lg:p-6 bg-white text-gray-800 shadow-md relative z-30 font-sans">
+    <nav className="fixed top-0 left-0 right-0 z-30 flex items-center justify-between bg-white text-gray-800 shadow-md p-4 lg:p-6">
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <Image 
@@ -35,9 +35,9 @@ export default function Navbar() {
             <Link
               href={link.href}
               className={clsx(
-                'flex items-center gap-2 rounded-md p-3 text-sm font-medium transition-colors duration-300 hover:bg-blue-100 hover:text-blue-600',
+                'flex items-center gap-2 rounded-md p-3 text-sm font-bold transition-colors duration-300 hover:bg-yellow-600 hover:text-white',
                 {
-                  'bg-blue-100 text-blue-600': pathname === link.href,
+                  'bg-yellow-600 text-white': pathname === link.href,
                 }
               )}
             >
@@ -62,7 +62,7 @@ export default function Navbar() {
       </button>
 
       {/* Mobile Menu */}
-      <div className={clsx("fixed top-0 right-0 h-8/10 w-1/3 bg-gradient-to-r from-gray-100 to-gray-200 shadow-lg rounded-l-xl lg:hidden transition-transform duration-300 transform-gpu", {
+      <div className={clsx("fixed top-0 right-0 h-8/10 w-2/3 bg-gradient-to-r from-gray-100 to-gray-200 shadow-lg rounded-l-xl lg:hidden transition-transform duration-300 transform-gpu", {
         'translate-x-full': !isMobileMenuOpen,
         'translate-x-0': isMobileMenuOpen,
       })}>
@@ -85,9 +85,9 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   className={clsx(
-                    'block w-full text-center p-3 text-sm font-medium text-gray-700 transition-colors duration-300 hover:bg-blue-100 hover:text-blue-600',
+                    'block w-full text-center p-3 text-xl font-medium text-gray-700 transition-colors duration-300 hover:bg-yellow-600 hover:text-white',
                     {
-                      'bg-blue-100 text-blue-600': pathname === link.href,
+                      'bg-yellow-600 text-white': pathname === link.href,
                     }
                   )}
                   onClick={() => setMobileMenuOpen(false)} // Close the menu when a link is clicked

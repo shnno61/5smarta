@@ -1,4 +1,5 @@
-"use client"
+'use client';
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -29,7 +30,7 @@ const ImageTextButtonCard = ({ src, alt, mainText, description, slug, index }: I
     <div
       className={`flex flex-col lg:flex-row ${isReversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} 
         bg-gray-800 shadow-lg rounded-xl overflow-hidden border border-gray-200 
-        transition-transform transform ${isTouched ? 'scale-105 bg-yellow-700' : ''} hover:scale-105 hover:bg-yellow-700 mx-auto max-w-screen-xl`}
+        transition-transform transform ${isTouched ? 'scale-105 bg-yellow-700' : ''} hover:scale-105 hover:bg-yellow-700 mx-auto max-w-screen-xl font-inter`}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
@@ -45,8 +46,8 @@ const ImageTextButtonCard = ({ src, alt, mainText, description, slug, index }: I
         </div>
       </div>
       <div className={`w-full ${isReversed ? 'lg:ml-8' : 'lg:mr-8'} p-4 flex flex-col justify-center items-center lg:items-start`}>
-        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl font-semibold mb-4 text-gray-100 text-center lg:text-left">{mainText}</h2>
-        <p className="text-sm sm:text-base md:text-base lg:text-base text-gray-300 mb-6 leading-relaxed text-center lg:text-left">{description}</p>
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl font-semibold mb-4 text-gray-100 text-center lg:text-left font-inter">{mainText}</h2>
+        <p className="text-sm sm:text-base md:text-base lg:text-base text-gray-300 mb-6 leading-relaxed text-center lg:text-left font-inter">{description}</p>
         <div className="flex justify-center w-full">
           <Link href={`/${slug}`} passHref>
             <Button
@@ -54,9 +55,9 @@ const ImageTextButtonCard = ({ src, alt, mainText, description, slug, index }: I
               title="Learn More"
               ariaLabel={`Learn more about ${mainText}`}
               variant="btn_solid"
-              className="transition-transform duration-300 transform hover:scale-105 px-3 py-2 sm:px-3 sm:py-2.5 md:px-3 md:py-1.5 lg:px-3 lg:py-1.5 xl:px-4 xl:py-2 2xl:px-6 2xl:py-3 3xl:px-8 3xl:py-4 4xl:px-10 4xl:py-5 text-xs sm:text-base md:text-sm lg:text-lg xl:text-base 2xl:text-lg 3xl:text-xl bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-900"
+              className="transition-transform duration-300 transform hover:scale-105 px-3 py-2 sm:px-3 sm:py-2.5 md:px-3 md:py-1.5 lg:px-3 lg:py-1.5 xl:px-4 xl:py-2 2xl:px-6 2xl:py-3 3xl:px-8 3xl:py-4 4xl:px-10 4xl:py-5 text-xs sm:text-base md:text-sm lg:text-lg xl:text-base 2xl:text-lg 3xl:text-xl bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-900 font-inter"
             >
-              Learn More
+              See More
             </Button>
           </Link>
         </div>
@@ -66,4 +67,3 @@ const ImageTextButtonCard = ({ src, alt, mainText, description, slug, index }: I
 };
 
 export default ImageTextButtonCard;
-

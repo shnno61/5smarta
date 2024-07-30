@@ -23,10 +23,10 @@ const page = () => {
   };
 
   const cards = [
-    { src: '/smartSecurity/securityCameras.jpeg', alt: 'Security Cameras', mainText: 'Security Cameras', description: 'Monitor your property with high-quality indoor and outdoor cameras for complete surveillance.', slug: 'securityCameras' },
-    { src: '/smartSecurity/smartLocks.jpeg', alt: 'Smart Locks', mainText: 'Smart Locks', description: 'Enhance security with advanced keypad and fingerprint locks for better home protection.', slug: 'smartLocks' },
-    { src: '/smartSecurity/securitySystems.jpeg', alt: 'Security Systems', mainText: 'Security Systems', description: 'Safeguard your home with integrated smart security systems for comprehensive protection.', slug: 'securitySystems' },
-    { src: '/smartSecurity/videoDoorbells.jpeg', alt: 'Video Doorbells', mainText: 'Video Doorbells', description: 'See and communicate with visitors using video doorbells for added convenience and safety.', slug: 'videoDoorbells' },
+    { src: '/smartSecurity/securityCameras.jpeg', alt: 'Security Cameras', mainText: 'Security Cameras', description: 'Monitor your property with high-quality indoor and outdoor cameras for complete surveillance.', slug: 'smartSecurity/securityCameras' },
+    { src: '/smartSecurity/smartLocks.jpeg', alt: 'Smart Locks', mainText: 'Smart Locks', description: 'Enhance security with advanced keypad and fingerprint locks for better home protection.', slug: 'smartSecurity/smartLocks' },
+    { src: '/smartSecurity/securitySystems.jpeg', alt: 'Security Systems', mainText: 'Security Systems', description: 'Safeguard your home with integrated smart security systems for comprehensive protection.', slug: 'smartSecurity/securitySystems' },
+    { src: '/smartSecurity/videoDoorbells.jpeg', alt: 'Video Doorbells', mainText: 'Video Doorbells', description: 'See and communicate with visitors using video doorbells for added convenience and safety.', slug: 'smartSecurity/videoDoorbells' },
   ];
 
   return (

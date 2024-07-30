@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://www.myawesomewebsite.com/',
   },
 };
- 
+
 const heroData = {
   title: 'Unlock Smart Living',
   description: 'Experience effortless living with smart devices that bring convenience and security to your fingertips, making everyday tasks simpler and your home more comfortable.',
@@ -26,7 +26,7 @@ const cardsData = [
   { src: '/home/smartOffice.jpeg', alt: 'smartOffice', mainText: 'Smart Office', hoverText: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
   { src: '/home/smartHealth.jpeg', alt: 'smartHealth', mainText: 'Smart Health', hoverText: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
   { src: '/home/smartSecurity.jpeg', alt: 'smartSecurity', mainText: 'Smart Security', hoverText: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
-  { src: '/home/smartWearables.jpeg', alt: 'smartWearables', mainText: 'Smart Wearables', hoverText: 'Elevate your lifestyle with versatile smart wearables...', slug: 'smartWearables' },
+  { src: '/home/smartWearables.jpeg', alt: 'smartWearables', mainText: 'Smart Wearables', hoverText: 'Elevate your lifestyle with versatile smart wearables..', slug: 'smartWearables' },
 ];
 
 export default function Page() {

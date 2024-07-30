@@ -26,7 +26,9 @@ const ImageTextGrid = ({ cards }: ImageTextGridProps) => {
               alt={card.alt}
               mainText={card.mainText}
               hoverText={card.hoverText}
-              slug={card.slug} id={''}            />
+              slug={card.slug} 
+              id={String(index)} 
+            />
           </div>
         ))}
         <div className="col-span-1 flex justify-center px-2 md:px-4 2xl:px-1 4xl:px-4">
@@ -35,7 +37,9 @@ const ImageTextGrid = ({ cards }: ImageTextGridProps) => {
             alt={cards[4].alt}
             mainText={cards[4].mainText}
             hoverText={cards[4].hoverText}
-            slug={cards[4].slug} id={''}          />
+            slug={cards[4].slug} 
+            id={String(4)} 
+          />
         </div>
       </div>
     </>

@@ -23,10 +23,10 @@ const page = () => {
   };
 
   const cards = [
-    { src: '/smartHealth/healthMonitoringDevices.jpeg', alt: 'Health Monitoring Devices', mainText: 'Health Monitoring Devices', description: 'Keep track of your health with smart blood pressure and glucose monitors for accurate measurements.', slug: 'healthMonitoringDevices' },
-    { src: '/smartHealth/fitnessDevices.jpeg', alt: 'Fitness Devices', mainText: 'Fitness Devices', description: 'Maintain your fitness with smart scales and activity trackers for a healthier and more active lifestyle.', slug: 'fitnessDevices' },
-    { src: '/smartHealth/sleepDevices.jpeg', alt: 'Sleep Devices', mainText: 'Sleep Devices', description: 'Improve your sleep quality with advanced sleep trackers and smart mattresses for better rest.', slug: 'sleepDevices' },
-    { src: '/smartHealth/airQualityMonitors.jpeg', alt: 'Air Quality Monitors', mainText: 'Air Quality Monitors', description: 'Ensure a healthy environment with smart indoor and wearable air quality monitors for cleaner air quality.', slug: 'airQualityMonitors' },
+    { src: '/smartHealth/healthMonitoringDevices.jpeg', alt: 'Health Monitoring Devices', mainText: 'Health Monitoring Devices', description: 'Keep track of your health with smart blood pressure and glucose monitors for accurate measurements.', slug: 'smartHealth/healthMonitoringDevices' },
+    { src: '/smartHealth/fitnessDevices.jpeg', alt: 'Fitness Devices', mainText: 'Fitness Devices', description: 'Maintain your fitness with smart scales and activity trackers for a healthier and more active lifestyle.', slug: 'smartHealth/fitnessDevices' },
+    { src: '/smartHealth/sleepDevices.jpeg', alt: 'Sleep Devices', mainText: 'Sleep Devices', description: 'Improve your sleep quality with advanced sleep trackers and smart mattresses for better rest.', slug: 'smartHealth/sleepDevices' },
+    { src: '/smartHealth/airQualityMonitors.jpeg', alt: 'Air Quality Monitors', mainText: 'Air Quality Monitors', description: 'Ensure a healthy environment with smart indoor and wearable air quality monitors for cleaner air quality.', slug: 'smartHealth/airQualityMonitors' },
   ];
 
   return (

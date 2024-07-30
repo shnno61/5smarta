@@ -23,10 +23,10 @@ const page = () => {
   };
 
   const cards = [
-    { src: '/smartOffice/smartLighting.jpeg', alt: 'Smart Lighting', mainText: 'Smart Lighting', description: 'Boost productivity with smart desk lamps and ceiling lights for optimal illumination.', slug: 'smartLighting' },
-    { src: '/smartOffice/smartSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Secure your workspace with advanced smart cameras and locks for enhanced protection.', slug: 'smartSecurity' },
-    { src: '/smartOffice/smartThermostats.jpeg', alt: 'Smart Thermostats', mainText: 'Smart Thermostats', description: 'Maintain a comfortable office with energy-efficient smart thermostats for consistent temperature.', slug: 'smartThermostats' },
-    { src: '/smartOffice/smartProductivity.jpeg', alt: 'Smart Productivity Devices', mainText: 'Smart Productivity Devices', description: 'Increase efficiency with smart printers, desks, and voice assistants for streamlined work.', slug: 'smartProductivity' },
+    { src: '/smartOffice/smartLighting.jpeg', alt: 'Smart Lighting', mainText: 'Smart Lighting', description: 'Boost productivity with smart desk lamps and ceiling lights for optimal illumination.', slug: 'smartOffice/smartLighting' },
+    { src: '/smartOffice/smartSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Secure your workspace with advanced smart cameras and locks for enhanced protection.', slug: 'smartOffice/smartSecurity' },
+    { src: '/smartOffice/smartThermostats.jpeg', alt: 'Smart Thermostats', mainText: 'Smart Thermostats', description: 'Maintain a comfortable office with energy-efficient smart thermostats for consistent temperature.', slug: 'smartOffice/smartThermostats' },
+    { src: '/smartOffice/smartProductivity.jpeg', alt: 'Smart Productivity Devices', mainText: 'Smart Productivity Devices', description: 'Increase efficiency with smart printers, desks, and voice assistants for streamlined work.', slug: 'smartOffice/smartProductivity' },
   ];
 
   return (
