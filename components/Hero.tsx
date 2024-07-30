@@ -20,20 +20,19 @@ const Hero = ({ title, description, imageSrc, imageAlt }: HeroProps) => (
         </p>
       </div>
       <div className="relative rounded-3xl mb-8 xl:hidden w-full max-w-md md:max-w-lg lg:max-w-md xl:mx-2 2xl:mx-4 3xl:mx-6 4xl:mx-8">
-        <div className="w-full h-0 pb-[80%] relative">
-          <Image
-            src={imageSrc}
-            alt={imageAlt}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg shadow-lg transition-transform transform hover:scale-105"
-            priority
-          />
-        </div>
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          width={800}
+          height={600}
+          layout="responsive"
+          className="rounded-lg shadow-lg transition-transform transform hover:scale-105"
+          priority
+        />
       </div>
     </div>
     <div className="relative w-full order-2 xl:order-2 xl:w-1/2 hidden xl:block xl:ml-8 2xl:ml-12 3xl:mx-16 4xl:mx-20">
-      <div className="w-full h-0 pb-[80%] relative">
+      <div className="relative w-full h-0 pb-[75%]">
         <Image
           src={imageSrc}
           alt={imageAlt}
