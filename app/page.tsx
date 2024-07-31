@@ -1,18 +1,8 @@
 import Hero from '@/components/Hero';
 import ImageTextGrid from '@/components/ImageTextGrid';
-import { Metadata } from 'next';
+import Head from 'next/head';
 
-export const metadata: Metadata = {
-  title: 'Smart Life',
-  description: 'Experience a new level of convenience with smart devices that transform your daily life.',
-  metadataBase: new URL('https://www.myawesomewebsite.com/'),
-  openGraph: {
-    title: 'Unlock Smart Living',
-    description: 'Experience a new level of convenience with smart devices that transform your daily life',
-    images: ['/home/smartHome.jpeg'],
-    url: 'https://smarta.vercel.app/',
-  },
-};
+ 
 
 const heroData = {
   title: 'Unlock Smart Living',
@@ -30,12 +20,22 @@ const cardsData = [
 ];
 
 export default function Page() {
-  return (
+  return (<>
+    <Head>
+    <title>Smart Life</title>
+    <meta name="description" content="Experience a new level of convenience with smart devices that transform your daily life." />
+    <meta property="og:title" content="Unlock Smart Living" />
+    <meta property="og:description" content="Experience a new level of convenience with smart devices that transform your daily life" />
+    <meta property="og:image" content="https://www.myawesomewebsite.com/home/smartHome.jpeg" />
+    <meta property="og:url" content="https://smarta.vercel.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </Head>
     <main className="bg-gray-900 text-white">
       <Hero {...heroData} />
       <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12">
         <ImageTextGrid cards={cardsData} />
       </div>
     </main>
+    </>
   );
 }
