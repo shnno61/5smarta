@@ -25,7 +25,8 @@ export default function Navbar() {
             alt="logo" 
             width={120} 
             height={65} 
-            priority
+            priority 
+            className="fixed-dimension"
           />
         </Link>
 
@@ -58,7 +59,8 @@ export default function Navbar() {
             alt="menu" 
             width={28} 
             height={28} 
-            priority
+            priority 
+            className="fixed-dimension"
           />
         </button>
       </div>
@@ -81,7 +83,8 @@ export default function Navbar() {
               alt="close menu" 
               width={24} 
               height={24} 
-              priority
+              priority 
+              className="fixed-dimension"
             />
           </button>
           <ul className="flex flex-col items-center gap-5 w-full">
