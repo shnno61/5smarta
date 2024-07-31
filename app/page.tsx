@@ -26,7 +26,7 @@ export default function Page() {
     <meta name="description" content="Experience a new level of convenience with smart devices that transform your daily life." />
     <meta property="og:title" content="Unlock Smart Living" />
     <meta property="og:description" content="Experience a new level of convenience with smart devices that transform your daily life" />
-    <meta property="og:image" content="https://smarta.vercel.app/_next/image?url=%2Fhome%2FsmartHome.jpeg&w=2048&q=75" />
+    <meta property="og:image" content="/home/smartHome.jpeg" />
     <meta property="og:url" content="https://smarta.vercel.app/" />
     <meta name="twitter:card" content="summary_large_image" />
   </Head>
