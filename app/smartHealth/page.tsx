@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   const heroData = {
-    title: 'Smart Health Devices',
+    title: 'Smart Health',
     description: 'Monitor and enhance your well-being with advanced smart health devices for accurate measurements and insights.',
     imageSrc: '/home/smartHealth.jpeg',
     imageAlt: 'Smart Health Devices',

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   const heroData = {
-    title: 'Smart Office Devices',
+    title: 'Smart Office',
     description: 'Boost your productivity with innovative smart office devices. Efficiency, comfort, and seamless connectivity.',
     imageSrc: '/home/smartOffice.jpeg',
     imageAlt: 'Smart Office Devices',

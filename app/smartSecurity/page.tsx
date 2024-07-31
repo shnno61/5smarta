@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   const heroData = {
-    title: 'Smart Security Devices',
+    title: 'Smart Security',
     description: 'Protect what matters most with smart security devices. Safety, reliability, and continuous monitoring.',
     imageSrc: '/home/smartSecurity.jpeg',
     imageAlt: 'Smart Security Devices',

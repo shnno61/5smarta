@@ -9,8 +9,8 @@ import BenefitsList from '@/components/BenefitsList';
 
 const heroData = {
   backgroundImage: '/images/hero.jpg',
-  title: 'Illuminate Your Home with Cutting-Edge Smart Lighting',
-  subtitle: 'Discover top-rated smart lighting solutions that offer convenience and energy efficiency.',
+  title: 'Achieve Peak Performance with State-of-the-Art Fitness Devices.',
+  subtitle: 'Explore top-rated fitness devices designed to enhance your workout performance.',
   buttonText: 'Explore Products',
   buttonLink: '#products',
 };

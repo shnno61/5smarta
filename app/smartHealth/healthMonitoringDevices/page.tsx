@@ -9,8 +9,8 @@ import BenefitsList from '@/components/BenefitsList';
 
 const heroData = {
   backgroundImage: '/images/hero.jpg',
-  title: 'Illuminate Your Home with Cutting-Edge Smart Lighting',
-  subtitle: 'Discover top-rated smart lighting solutions that offer convenience and energy efficiency.',
+  title: 'Elevate Your Wellness with Advanced Health Monitoring Devices.',
+  subtitle: 'Discover top-rated health monitoring devices that provide comprehensive wellness insights.',
   buttonText: 'Explore Products',
   buttonLink: '#products',
 };

@@ -9,8 +9,8 @@ import BenefitsList from '@/components/BenefitsList';
 
 const heroData = {
   backgroundImage: '/images/hero.jpg',
-  title: 'Illuminate Your Home with Cutting-Edge Smart Lighting',
-  subtitle: 'Discover top-rated smart lighting solutions that offer convenience and energy efficiency.',
+  title: 'Experience Restful Nights with Innovative Sleep Devices.',
+  subtitle: 'Find top-rated sleep devices that promote restful and rejuvenating sleep.',
   buttonText: 'Explore Products',
   buttonLink: '#products',
 };

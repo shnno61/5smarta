@@ -9,8 +9,8 @@ import BenefitsList from '@/components/BenefitsList';
 
 const heroData = {
   backgroundImage: '/images/hero.jpg',
-  title: 'Illuminate Your Home with Cutting-Edge Smart Lighting',
-  subtitle: 'Discover top-rated smart lighting solutions that offer convenience and energy efficiency.',
+  title: 'Breathe Easy with Cutting-Edge Air Quality Monitors.',
+  subtitle: 'Uncover top-rated air quality monitors for a cleaner and healthier living environment.',
   buttonText: 'Explore Products',
   buttonLink: '#products',
 };

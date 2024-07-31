@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Unlock Smart Living',
     description: 'Experience a new level of convenience with smart devices that transform your daily life',
     images: ['/home/smartHome.jpeg'],
-    url: 'https://www.myawesomewebsite.com/',
+    url: 'https://smarta.vercel.app/',
   },
 };
 
