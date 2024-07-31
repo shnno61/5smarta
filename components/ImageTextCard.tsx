@@ -42,11 +42,11 @@ const ImageTextCard = ({ src, alt, mainText, hoverText, slug, id }: ImageTextCar
             priority
             className="transition-opacity duration-300 group-hover:opacity-70"
           />
-          <div className="absolute inset-0 flex flex-col justify-end items-center bg-black bg-opacity-0 text-white p-4 text-center font-inter">
-            <h2 className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold mb-2 group-hover:hidden">{mainText}</h2>
+          <div className="absolute inset-0 flex flex-col justify-end items-center bg-black bg-opacity-10 text-white p-4 text-center font-inter">
+            <h2 className="text-xs xs:text-md sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold mb-2 group-hover:hidden">{mainText}</h2>
           </div>
           <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-90 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 text-center font-inter">
-            <h2 className="text-xs xs:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold mb-2">{mainText}</h2>
+            <h2 className="text-xs text-yellow-500 xs:text-md sm:text-base md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold mb-2">{mainText}</h2>
             <p className="text-xs px- xs:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl mb-4">{hoverText}</p>
             <Link href={`/${slug}`} passHref>
               <Button
