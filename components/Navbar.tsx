@@ -37,9 +37,9 @@ export default function Navbar() {
               <Link
                 href={link.href}
                 className={clsx(
-                  'flex items-center gap-2 rounded-md px-3 py-1.5 text-sm font-medium transition-colors duration-300 hover:bg-yellow-600 hover:text-white',
+                  'flex items-center gap-2 rounded-md px-3 py-1.5 text-sm font-medium transition-colors duration-300 hover:bg-yellow-300 hover:text-blue-600 ',
                   {
-                    'bg-yellow-600 text-white': pathname === link.href,
+                    'bg-yellow-300 text-blue-600': pathname === link.href,
                   }
                 )}
               >
@@ -95,7 +95,7 @@ export default function Navbar() {
                   className={clsx(
                     'block w-full text-center px-3 py-2 text-lg font-medium text-gray-700 transition-colors duration-300 hover:bg-yellow-600 hover:text-white',
                     {
-                      'bg-yellow-600 text-white': pathname === link.href,
+                      'bg-yellow-300 text-blue-600': pathname === link.href,
                     }
                   )}
                   onClick={() => setMobileMenuOpen(false)} // Close the menu when a link is clicked

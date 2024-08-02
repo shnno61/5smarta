@@ -85,7 +85,7 @@ const Page = () => {
     <>
     
 
-      <main className="relative overflow-hidden bg-gray-900 text-white">
+      <main className="relative overflow-hidden bg-white text-gray-800">
         <HeroSection data={heroData} />
 
         <Section id="intro" title="Why Smart Security?">
