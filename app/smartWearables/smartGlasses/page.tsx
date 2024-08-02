@@ -111,13 +111,13 @@ const Page = () => {
         </Section>
 
 
-        <Section id="reviews" title="User Experiences">
+        <Section id="experts" title="Expert Opinions" className="bg-white">
           <div className="space-y-6">
-            {userTestimonials.map((testimonial, index) => (
+            {expertQuotes.map((expertQuotes, index) => (
               <QuoteCard
                 key={index}
-                quote={testimonial.quote}
-                author={testimonial.author}
+                quote={expertQuotes.quote}
+                author={expertQuotes.author}
               />
             ))}
           </div>
@@ -137,11 +137,11 @@ const Page = () => {
           </div>
         </Section>
 
-        <Section id="guide" title="Buying Guide" className="bg-gray-800">
-          <div className="bg-gray-900 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 active:scale-95">
-            <p className="text-lg mb-4">{buyingGuideContent}</p>
-          </div>
-        </Section>
+        <Section id="guide" title="Buying Guide" className="bg-gray-300">
+           
+           <p className="text-lg mb-4">{buyingGuideContent}</p>
+         
+       </Section>
 
         {/* <Section id="blog" title="Blogs">
           <BlogSection posts={blogPosts} />

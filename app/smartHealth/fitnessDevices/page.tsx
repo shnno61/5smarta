@@ -136,7 +136,7 @@ const Page = () => {
       </Section>
  
 
-        <Section id="experts" title="Expert Opinions" className="bg-gray-800">
+      <Section id="experts" title="Expert Opinions" className="bg-white">
           <div className="space-y-6">
             {expertQuotes.map((expertQuotes, index) => (
               <QuoteCard
@@ -175,10 +175,10 @@ const Page = () => {
           </div>
         </Section>
 
-        <Section id="guide" title="Buying Guide" className="bg-gray-800">
-          <div className="bg-gray-900 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 active:scale-95">
+        <Section id="guide" title="Buying Guide" className="bg-gray-300">
+           
             <p className="text-lg mb-4">{buyingGuideContent}</p>
-          </div>
+          
         </Section>
 
         {/* <Section id="blog" title="Blogs">
