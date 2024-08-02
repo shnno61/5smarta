@@ -21,10 +21,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image 
-            src="/logo.png" 
+            src="/log.png" 
             alt="logo" 
-            width={120} 
-            height={65} 
+            width={110} 
+            height={36} 
             priority 
             className="fixed-dimension"
           />
