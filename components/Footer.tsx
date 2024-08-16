@@ -1,5 +1,8 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+ 
 import Link from 'next/link';
+ 
+
 
 const Footer = () => {
   return (
@@ -20,20 +23,16 @@ const Footer = () => {
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4">Contact Us</h3>
             <ul className="text-sm sm:text-base lg:text-lg">
               <li className="mb-2">
-                <Link href="mailto:info@example.com" passHref>
-                  <span className="text-gray-400 hover:underline transition-colors duration-300">info@example.com</span>
+                <Link href="mailto:life5smarta@outlook.com" passHref>
+                  <span className="text-gray-400 hover:underline transition-colors duration-300">life5smarta@outlook.com</span>
                 </Link>
               </li>
               <li className="mb-2">
-                <Link href="tel:+1234567890" passHref>
-                  <span className="text-gray-400 hover:underline transition-colors duration-300">+1 (234) 567-890</span>
+                <Link href="tel:+2001500446145" passHref>
+                  <span className="text-gray-400 hover:underline transition-colors duration-300">+20 01500446145</span>
                 </Link>
               </li>
-              <li>
-                <Link href="/contact" passHref>
-                  <span className="text-gray-400 hover:underline transition-colors duration-300">Contact Form</span>
-                </Link>
-              </li>
+             
             </ul>
           </div>
 
@@ -41,26 +40,18 @@ const Footer = () => {
           <div className="w-full sm:w-full lg:w-1/3 mb-6 lg:mb-0 text-center">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4">Follow Us</h3>
             <div className="flex justify-center gap-4 lg:justify-center lg:gap-6">
-              <Link href="https://facebook.com" passHref>
+              <Link href="https://www.facebook.com/profile.php?id=61564061802374" passHref>
                 <span className="text-gray-400 hover:text-white transition-colors duration-300 text-xl sm:text-2xl lg:text-3xl">
                   <FaFacebook />
                 </span>
               </Link>
-              <Link href="https://twitter.com" passHref>
-                <span className="text-gray-400 hover:text-white transition-colors duration-300 text-xl sm:text-2xl lg:text-3xl">
-                  <FaTwitter />
-                </span>
-              </Link>
-              <Link href="https://instagram.com" passHref>
+              
+              <Link href="https://www.instagram.com/5smartaa/" passHref>
                 <span className="text-gray-400 hover:text-white transition-colors duration-300 text-xl sm:text-2xl lg:text-3xl">
                   <FaInstagram />
                 </span>
               </Link>
-              <Link href="https://linkedin.com" passHref>
-                <span className="text-gray-400 hover:text-white transition-colors duration-300 text-xl sm:text-2xl lg:text-3xl">
-                  <FaLinkedin />
-                </span>
-              </Link>
+              
             </div>
           </div>
         </div>

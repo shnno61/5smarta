@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "@iconscout/react-unicons": "^2.0.2",
     "@types/react-icons": "^2.2.7",
     "clsx": "^2.1.1",
     "next": "14.2.5",
