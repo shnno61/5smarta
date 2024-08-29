@@ -45,7 +45,7 @@ const ComparisonSection = () => {
             </p>
           </div>
         </div>
-        
+        <h2 className="text-3xl text-blue-600 font-bold mb-6 px-3 md:px-5 lg:px-6 text-center mt-4"> Strips vs Bulbs</h2>
         {/* Comparison Table */}
         <div className="flex flex-col">
       <div className="overflow-x-auto">

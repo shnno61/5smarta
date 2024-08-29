@@ -33,7 +33,7 @@ const page = () => {
   ];
  
   return (
-    <main className="bg-white text-gray-800">
+    <main className=" text-gray-900" >
       <Hero {...heroData} />
       <ImageTextButtonGrid cards={cards} />
     </main>

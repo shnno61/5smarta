@@ -30,7 +30,7 @@ export default function Page() {
     <meta property="og:url" content="https://smarta.vercel.app/" />
     <meta name="twitter:card" content="summary_large_image" />
   </Head>
-    <main className="bg-white text-white"> 
+    <main className="bg-cover bg-center bg-no-repeat " > 
       <Hero {...heroData} />
       <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12">
         <ImageTextGrid cards={cardsData} />

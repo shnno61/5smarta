@@ -14,8 +14,7 @@ export default function HeroSection({ data }: HeroSectionProps) {
   return (
     <section
       id="hero"
-      className="relative h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${data.backgroundImage})` }}
+      className="relative h-screen bg-cover " 
     >
       <div className="absolute inset-0 bg-white bg-opacity-50 flex items-center justify-center">
         <div className="text-center p-4 md:p-8 lg:p-12">

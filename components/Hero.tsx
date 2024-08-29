@@ -8,7 +8,7 @@ interface HeroProps {
 }
 
 const Hero = ({ title, description, imageSrc, imageAlt }: HeroProps) => (
-  <section className="relative padding-container flex flex-col gap-6 py-10 md:gap-10 lg:py-20 xl:flex-row xl:gap-10 2xl:py-28 3xl:py-32 4xl:py-40 text-gray-800">
+  <section className="relative padding-container flex flex-col gap-6 py-10 md:gap-10 lg:py-20 xl:flex-row xl:gap-10 2xl:py-28 3xl:py-32 4xl:py-40 text-gray-800" >
     <div className="absolute inset-0  opacity-40 z-0"></div>
     <div className="relative z-10 flex flex-1 flex-col order-1 xl:order-1 xl:w-1/2 items-center xl:items-start">
       <div className="px-4 py-8 mx-auto max-w-screen-lg xl:max-w-full 2xl:px-16 2xl:py-12 3xl:px-24 3xl:py-16 4xl:px-32 4xl:py-20">
