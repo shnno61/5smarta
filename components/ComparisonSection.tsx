@@ -5,10 +5,12 @@ const ComparisonSection = () => {
   return (
     <section className="py-12 ">
       <div className="container mx-auto px-4">
+      <h2 className="text-3xl text-blue-600 font-bold mb-6 px-3 md:px-5 lg:px-6">Now there are Bulbs and Strips...so which one i need ???</h2>
         {/* Image Section */}
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* LED Strips Section */}
           <div className="flex-1 mb-8 md:mb-0 px-2 xs:px-4 sm:px-6 lg:px-8 py-2">
+            <h2 className="text-2xl font-semibold mt-6 ml-2 text-gray-900 ">LED Strips</h2>
             <div className="relative h-64 overflow-hidden rounded-lg shadow-md border-4 border-blue-500">
               <Image
                 src="/smartHome/smartLighting/strip.png" // Replace with your image path
@@ -18,7 +20,7 @@ const ComparisonSection = () => {
                 className="transition-transform duration-500 hover:scale-105"
               />
             </div>
-            <h2 className="text-2xl font-semibold mt-6 ml-2 text-gray-900 ">LED Strips</h2>
+            
             <p className="mt-2 text-gray-700 mb-6 ml-2">
               LED strips are flexible and customizable, ideal for accent and mood lighting. They can change colors and are great for decoration but require more complex installation.
             </p>
@@ -26,6 +28,7 @@ const ComparisonSection = () => {
 
           {/* LED Bulbs Section */}
           <div className="flex-1 px-2 xs:px-4 sm:px-6 lg:px-8 py-2">
+            <h2 className=" ml-2 text-2xl font-semibold mt-6 text-gray-900">LED Bulbs</h2>
             <div className="relative h-64 overflow-hidden rounded-lg shadow-md border-4 border-blue-500">
               <Image
                 src="/smartHome/smartLighting/bulb.jpg" // Replace with your image path
@@ -36,13 +39,13 @@ const ComparisonSection = () => {
                  
               />
             </div>
-            <h2 className=" ml-2 text-2xl font-semibold mt-6 text-gray-900">LED Bulbs</h2>
+           
             <p className="mt-2 ml-2 text-gray-700  mb-6">
               LED bulbs are easy to install and provide bright, general lighting. They are durable and energy-efficient, ideal for everyday use and task lighting.
             </p>
           </div>
         </div>
-        <h2 className="text-3xl text-blue-600 font-bold mb-6 px-3 md:px-5 lg:px-6"> Some Tips </h2>
+        
         {/* Comparison Table */}
         <div className="flex flex-col">
       <div className="overflow-x-auto">
