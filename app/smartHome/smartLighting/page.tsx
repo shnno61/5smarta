@@ -5,6 +5,7 @@ import ProductCard from '@/components/ProductCard';
 import QuoteCard from '@/components/QuoteCard';
 import BlogSection from '@/components/BlogSection';
 import BenefitsList from '@/components/BenefitsList';
+import ComparisonSection from '@/components/ComparisonSection';
  
 
 const heroData = {
@@ -29,74 +30,58 @@ const benefits = [
 const products = [
   {
     imageSrc: '/smartHome/smartLighting/smartlighting1.jpg',
-    title: '100ft Led Strip Lights ',
-    description: '(2 Rolls of 50ft) RGB Music Sync Color Changing,Bluetooth Led Lights with Smart App Control Remote,Led Lights for Bedroom Room Lighting Flexible Home Decor',
-    link: 'https://amzn.to/3As79UH',
+    title: 'Sengled Alexa Smart Bulb',
+    description: 'S1 auto-pairing with Alexa, warm light, Bluetooth Mesh, E26, 60W equivalent, 800LM.',
+    link: 'https://amzn.to/4dHUrQj',
   },
   {
     imageSrc: '/smartHome/smartLighting/smartlighting2.jpg',
-    title: 'Govee Smart Light Bulbs',
-    description: 'Color Changing Light Bulb, Work with Alexa and Google Assistant, 16 Million Colors RGBWW, WiFi & Bluetooth LED Light Bulbs, Music Sync, A19, 800 Lumens, 4 Pack.',
-    link: 'https://amzn.to/4dIA6tL',
+    title: 'Philips Hue Smart Bulb',
+    description: 'Soft warm white,800LM, E26, indoor, Hue app, Alexa, Google Assistant, Apple HomeKit.',
+    link: 'https://amzn.to/3Xjn9Bn',
   },
   {
     imageSrc: '/smartHome/smartLighting/smartlighting3.jpg',
-    title: 'LED Night Light Lamp',
-    description: 'with Smart Sensor Dusk to Dawn Sensor, Daylight White, 0.5W Plug-in, 6-Pack.',
-    link: 'https://amzn.to/46T2kA6',
+    title: 'Govee Smart Bulb',
+    description: 'Dimmable Bluetooth LED, 7W (60W), A19, multicolor, music sync, app control, no hub needed.',
+    link: 'https://amzn.to/3X7RhOG',
   },
   {
     imageSrc: '/smartHome/smartLighting/smartlighting4.jpg',
-    title: 'Keepsmile 100ft Led Strip Lights',
-    description: '(2 Rolls of 50ft) Bluetooth Smart App Control Music Sync Color Changing RGB Led Light Strip with Remote,Led Lights for Bedroom Room Home Decor Party Festival.',
-    link: 'https://amzn.to/3YTPsHE',
+    title: 'Amazon Basics Smart Bulb',
+    description: 'Smart LED bulb, Alexa-only, 7.5W (60W equivalent), 800 lumens, multicolor, A19, 2.4 GHz Wi-Fi.',
+    link: 'https://amzn.to/4e4KTP5',
   },
+   
+  // Add more products here
+];
+
+const products1 = [
   {
     imageSrc: '/smartHome/smartLighting/smartlighting5.jpg',
-    title: 'Govee Smart LED Strip Lights',
-    description: '16.4ft WiFi LED Strip Lighting Work with Alexa and Google Assistant, 16 Million Colors with App Control and Music Sync LED Lights for Bedroom, Kitchen, TV, Party.',
-    link: 'https://amzn.to/4drrxE1',
+    title: 'Govee RGBIC Smart Strip',
+    description: 'RGBIC LED strip lights, 16.4ft, Bluetooth app control, DIY multiple colors, music sync, home decor.',
+    link: 'https://amzn.to/4gfjfRE',
   },
+   
   {
     imageSrc: '/smartHome/smartLighting/smartlighting6.jpg',
-    title: 'Kasa Smart Light Bulbs', 
-    description: ' Full Color Changing Dimmable Smart WiFi Bulbs Compatible with Alexa and Google Home, A19, 60 W 800 Lumens,2.4Ghz only, No Hub Required, 2-Pack (KL125P2), Multicolor',
-    link: 'https://amzn.to/3yJAvNU',
+    title: 'ZOZOO  Smart Strip',
+    description: 'RGBIC LED strip lights, 16.4ft, Bluetooth app control, DIY multiple colors, music sync, home decor.',
+    link: 'https://amzn.to/3WXqq88',
+  },
+  {
+    imageSrc: '/smartHome/smartLighting/smartlighting7.jpg',
+    title: 'Tenmiro Smart Strip',
+    description: '100ft LED strip lights (2x50ft), smart RGB, remote & app control, music sync, color changing, for home parties.',
+    link: 'https://amzn.to/4dZSXk9',
   },
   // Add more products here
 ];
 
-const expertQuotes = [
-  {
-    quote: 'Smart lighting is one of the most accessible and transformative elements of a smart home. With products like Philips Hue and LIFX, users can easily customize their lighting to fit their mood, improve their home\'s security, and save on energy costs. These systems integrate seamlessly with other smart home devices, making them a central piece of home automation.',
-    author: 'Stacey Higginbotham, Host of the "Internet of Things" Podcast',
-  },
-  {
-    quote: 'The advancements in smart lighting technology have made it possible to create the perfect ambiance for any occasion with just a few taps on your phone or a voice command. Philips Hue remains the gold standard, offering a wide range of products that work reliably and integrate well with other smart home ecosystems like Amazon Alexa, Google Assistant, and Apple HomeKit.',
-    author: 'Chris Monroe, Senior Editor at CNET\'s Smart Home Section',
-  },
-  {
-    quote: 'Smart lighting is revolutionizing the way we interact with our homes. It\'s not just about turning lights on and off anymore. You can program lights to match your mood, automate them to save energy, and even use them as a security feature. It\'s a blend of convenience, efficiency, and innovation that brings new life to home lighting.',
-    author: 'David Pogue, Tech Columnist and TV Host',
-  },
-  // Add more expert quotes here
-];
+ 
 
-const userTestimonials = [
-  {
-    quote: 'The smart lighting system has transformed my home. It’s incredibly easy to use and the energy savings are significant!',
-    author: 'Jane Smith',
-  },
-  {
-    quote: 'The smart lighting system has transformed my home. It’s incredibly easy to use and the energy savings are significant!',
-    author: 'Jane Smith',
-  },
-  {
-    quote: 'The smart lighting system has transformed my home. It’s incredibly easy to use and the energy savings are significant!',
-    author: 'Jane Smith',
-  },
-  // Add more testimonials here
-];
+ 
 
 const buyingGuideContent = `
   Choosing the right smart lighting involves considering factors such as compatibility with existing systems, control options, and energy efficiency. 
@@ -129,27 +114,18 @@ const Page = () => {
     
 
       <main className="relative overflow-hidden bg-white text-gray-800">
-        <HeroSection data={heroData} />
+        <HeroSection  data={heroData} />
 
         <Section id="intro" title="Why Smart Lighting?">
         <BenefitsList benefits={benefits} />
       </Section>
+      <ComparisonSection/>
  
 
-        <Section id="experts" title="Expert Opinions" className="bg-white">
-          <div className="space-y-6">
-            {expertQuotes.map((expertQuotes, index) => (
-              <QuoteCard
-                key={index}
-                quote={expertQuotes.quote}
-                author={expertQuotes.author}
-              />
-            ))}
-          </div>
-        </Section>
+         
 
-        <Section id="products" title="Recommended Products">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <Section id="products" title="Recommended Bulb Products">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {products.map((product, index) => (
               <ProductCard
                 key={index}
@@ -162,17 +138,20 @@ const Page = () => {
           </div>
         </Section>
 
-        <Section id="reviews" title="User Experiences">
-          <div className="space-y-6">
-            {userTestimonials.map((testimonial, index) => (
-              <QuoteCard
+        <Section id="products" title="Recommended Strip Products">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {products1.map((product, index) => (
+              <ProductCard
                 key={index}
-                quote={testimonial.quote}
-                author={testimonial.author}
+                imageSrc={product.imageSrc}
+                title={product.title}
+                description={product.description}
+                link={product.link}
               />
             ))}
           </div>
         </Section>
+ 
 
         <Section id="guide" title="Buying Guide" className="bg-gray-300">
            
