@@ -14,7 +14,7 @@ const heroData = {
 const cards = [
   { src: '/home/smartLighting.jpeg', alt: 'Smart Lighting', mainText: 'Smart Lighting', description: 'Illuminate your home with intelligent lighting solutions for control and ambiance...', slug: 'smartLighting' },
   { src: '/home/securityCameras.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect your home with advanced security cameras, smart locks, and video doorbells..', slug: 'smartSecurity' },
-  { src: '/home/smartSpeakers.jpeg', alt: 'Echo Smart Speakers', mainText: 'Echo Smart Speakers', description: 'Keep your home connected with Echo smart speakers for seamless voice control, music, and smart home integration.', slug: 'smartSpeakers' },
+  { src: '/home/speakers.jpg', alt: 'Echo Smart Speakers', mainText: 'Echo Smart Speakers', description: 'Keep your home connected with Echo smart speakers for seamless voice control, music, and smart home integration.', slug: 'smartSpeakers' },
   { src: '/home/kitchen.jpg', alt: 'Smart Kitchen Appliances', mainText: 'Smart Kitchen Appliances', description: 'Upgrade your kitchen with smart pot cookers, ovens, coffee makers.', slug: 'smartKitchen' },
   { src: '/home/smartCleaning.jpeg', alt: 'Smart Cleaning Devices', mainText: 'Smart Cleaning Devices', description: 'Keep your home clean with robot vacuums for easy maintenance.', slug: 'smartCleaning' },
 ];
