@@ -1,5 +1,5 @@
 import Hero from '@/components/Hero';
-import ImageTextGrid from '@/components/ImageTextGrid';
+import ImageTextButtonGrid from '@/components/ImageTextButtonGrid';
 import Head from 'next/head';
 
  
@@ -7,34 +7,32 @@ import Head from 'next/head';
 const heroData = {
   title: 'Unlock Smart Living',
   description: 'Experience effortless living with smart devices that bring convenience and security to your fingertips, making everyday tasks simpler and your home more comfortable.',
-  imageSrc: '/home/SmartLife.jpeg',
+  imageSrc: '/home/smartHome.jpeg',
   imageAlt: 'Smart Life',  
 };
 
-const cardsData = [
-  { src: '/home/smartHome.jpeg', alt: 'smartHome', mainText: 'Smart Home', hoverText: 'Revolutionize your living space with cutting-edge smart home devices...', slug: 'smartHome' },
-  { src: '/home/smartOffice.jpeg', alt: 'smartOffice', mainText: 'Smart Office', hoverText: 'Boost your productivity with state-of-the-art smart office devices...', slug: 'smartOffice' },
-  { src: '/home/smartHealth.jpeg', alt: 'smartHealth', mainText: 'Smart Health', hoverText: 'Take control of your well-being with innovative smart health devices...', slug: 'smartHealth' },
-  { src: '/home/smartSecurity.jpeg', alt: 'smartSecurity', mainText: 'Smart Security', hoverText: 'Protect what matters most with advanced smart security devices...', slug: 'smartSecurity' },
-  { src: '/home/smartWearables.jpeg', alt: 'smartWearables', mainText: 'Smart Wearables', hoverText: 'Elevate your lifestyle with versatile smart wearables..', slug: 'smartWearables' },
+const cards = [
+  { src: '/home/smartLighting.jpeg', alt: 'Smart Lighting', mainText: 'Smart Lighting', description: 'Illuminate your home with intelligent lighting solutions for control and ambiance...', slug: 'smartLighting' },
+  { src: '/home/SmartHomeSecurity.jpeg', alt: 'Smart Security', mainText: 'Smart Security', description: 'Protect your home with advanced security cameras, smart locks, and video doorbells..', slug: 'smartSecurity' },
+  { src: '/home/smartSpeakers.jpeg', alt: 'Echo Smart Speakers', mainText: 'Echo Smart Speakers', description: 'Keep your home connected with Echo smart speakers for seamless voice control, music, and smart home integration.', slug: 'smartSpeakers' },
+  { src: '/home/smartkitchen.jpg', alt: 'Smart Kitchen Appliances', mainText: 'Smart Kitchen Appliances', description: 'Upgrade your kitchen with smart refrigerators, ovens, coffee makers, and dishwashers.', slug: 'smartKitchen' },
+  { src: '/home/smartCleaning.jpeg', alt: 'Smart Cleaning Devices', mainText: 'Smart Cleaning Devices', description: 'Keep your home clean with robot vacuums, smart mops, and air purifiers for easy maintenance.', slug: 'smartCleaning' },
 ];
+ 
 
 export default function Page() {
   return (<>
     <Head>
-    <title>Smart Life</title>
     <meta name="description" content="Experience a new level of convenience with smart devices that transform your daily life." />
     <meta property="og:title" content="Unlock Smart Living" />
     <meta property="og:description" content="Experience a new level of convenience with smart devices that transform your daily life" />
     <meta property="og:image" content="/home/smartHome.jpeg" />
-    <meta property="og:url" content="https://smarta.vercel.app/" />
+    <meta property="og:url" content="https://5smarta.com/" />
     <meta name="twitter:card" content="summary_large_image" />
   </Head>
     <main className="bg-cover bg-center bg-no-repeat " > 
       <Hero {...heroData} />
-      <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12">
-        <ImageTextGrid cards={cardsData} />
-      </div>
+      <ImageTextButtonGrid cards={cards} />
     </main>
     </>
   );

@@ -16,7 +16,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ posts }) => {
         {posts.map((post, index) => (
           <div
             key={index}
-            className="bg-gray-300 mb-4 p-6 rounded-lg shadow-lg transition-transform transform hover:bg-white hover:scale-105 active:scale-95"
+            className="bg-gray-300 mb-4 p-6 rounded-lg shadow-lg transition-transform transform hover:bg-white hover:scale-105  "
           >
             <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
             <p className="text-gray-800 mb-4">{post.summary}</p>

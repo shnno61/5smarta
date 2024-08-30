@@ -30,7 +30,7 @@ export default function ProductCard({
   return (
     <div
       className={`  p-2 pb-3 rounded-lg shadow-lg transition-transform transform m-2 border-4 border-blue-500
-        ${isTouched ? 'scale-105 bg-gray-100' : ''} hover:bg-gray-100 hover:scale-105 active:scale-95`}
+        ${isTouched ? 'scale-105 ' : ''} hover:scale-105  `}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
