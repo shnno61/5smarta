@@ -13,7 +13,7 @@ const ComparisonSection = () => {
             <h2 className="text-2xl font-semibold mt-6 ml-2 text-gray-900 ">LED Strips</h2>
             <div className="relative h-64 overflow-hidden rounded-lg shadow-md border-4 border-blue-500">
               <Image
-                src="/smartHome/smartLighting/strip.png" // Replace with your image path
+                src="/smartLighting/strip.png" // Replace with your image path
                 alt="LED Strips"
                 fill
                 style={{ objectFit: 'contain' }} 
@@ -31,7 +31,7 @@ const ComparisonSection = () => {
             <h2 className=" ml-2 text-2xl font-semibold mt-6 text-gray-900">LED Bulbs</h2>
             <div className="relative h-64 overflow-hidden rounded-lg shadow-md border-4 border-blue-500">
               <Image
-                src="/smartHome/smartLighting/bulb.jpg" // Replace with your image path
+                src="/smartLighting/bulb.jpg" // Replace with your image path
                 alt="LED Bulbs"
                 fill
                 style={{ objectFit: 'contain' }} // Ensures the image covers the container
