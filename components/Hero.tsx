@@ -15,7 +15,7 @@ const Hero = ({ title, description, imageSrc, imageAlt }: HeroProps) => (
              Unlock Smart Living
           </h1>
           <p className="m-7  text-lg text-white sm:text-xl md:text-2xl mb-8">
-          Experience the ease of smart living with devices that simplify daily tasks, enhance comfort, and bring security to your home—all at your fingertips.
+          Experience the ease of smart living with devices that simplify daily tasks, enhance comfort, and bring security to your home—all at your fingertips
           </p>
            
         </div>
