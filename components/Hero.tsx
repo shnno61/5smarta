@@ -12,7 +12,7 @@ const Hero = ({ title, description, imageSrc, imageAlt }: HeroProps) => (
     <div className="absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center">
         <div className="text-center p-4 md:p-8 lg:p-12">
           <h1 className="text-4xl text-blue-600 sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
-             Unlock Smart Living
+             5smarta Your Guide To Smart Living
           </h1>
           <p className="m-7  text-lg text-white sm:text-xl md:text-2xl mb-8">
           Experience the ease of smart living with devices that simplify daily tasks, enhance comfort, and bring security to your home—all at your fingertips

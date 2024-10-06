@@ -25,6 +25,12 @@ const benefits = [
 
 const products = [
   {
+    imageSrc: '/smartSpeakers/sp4.jpg',
+    title: ' LeeNabao Smart LED Table Lamp',
+    description: 'Mini Wireless Speaker Lamp with Alarm Clock, Wireless Charging, Atmosphere Light, Bedside Table Lamp Gifts',
+    link: 'https://amzn.to/3YcCCnd',
+  },
+  {
     imageSrc: '/smartSpeakers/sp1.jpg',
     title: 'Amazon Echo Dot',
     description: '(5th Gen, 2022 release) | With bigger vibrant sound, helpful routines and Alexa | Charcoal',
